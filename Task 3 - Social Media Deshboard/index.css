@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.sidebar{
+    height: 98vh;
+    width: 20%;
+    background-color: rgb(239, 238, 230);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.sidebar .profile img{
+    width: 140px;
+    height: auto;
+    border-radius: 50%;
+}
+.sidebar .profile h1{
+    font-size: 30px;
+    color: rgb(18, 123, 193);
+}
+.sidebar .logout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.sidebar .logout i{
+    font-size: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: rgb(232, 68, 68);
+}
+.sidebar .logout h1{
+    font-size: 27px;
+    color: red;
+}
+
+.main-content{
+    height: 98vh;
+    width: 80%;
+    background-color: rgb(160, 151, 151);
+    margin-left: 10px;
+    border-radius: 10px;
+    display: grid;
+}
+.main-content .heading-text{
+    padding: 20px;
+}
+.main-content .heading-text h1{
+    font-size: 30px;
+    text-align: center;
+}
+.main-content .heading-text h3{
+    font-size: 25px;
+    text-align: center;
+}
+.main-content .course{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;  
+    align-items: center;
+}
+.main-content .course .box1{
+    height: 280px;
+    width: 280px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: 1s ease-in-out;
+}
+.main-content .course .box1:hover{
+    scale: 1.08;
+    background-color: transparent;
+    color: white;
+}
+.main-content .course .box1 i{
+    font-size: 35px;
+}
+.main-content .course .box1 h1{
+    font-size: 25px;
+}
+.main-content .course .box1 button{
+    padding: 10px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+.main-content .course .box1 button:hover{
+    scale: 1.2;
+    background-color: transparent;
+    color: red;
+}
+.main-content .course .box2{
+    height: 280px;
+    width: 280px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: 1s ease-in-out;
+}
+.main-content .course .box2:hover{
+    scale: 1.08;
+    background-color: transparent;
+    color: white;
+}
+.main-content .course .box2 i{
+    font-size: 35px;
+}
+.main-content .course .box2 h1{
+    font-size: 25px;
+}
+.main-content .course .box2 button{
+    padding: 10px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+
+.main-content .course .box2 button:hover{
+    scale: 1.2;
+    background-color: transparent;
+    color: red;
+}
+.main-content .course .box3{
+    height: 280px;
+    width: 280px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: 1s ease-in-out;
+}
+.main-content .course .box3:hover{
+    scale: 1.08;
+    background-color: transparent;
+    color: white;
+}
+.main-content .course .box3 i{
+    font-size: 35px;
+}
+.main-content .course .box3 h1{
+    font-size: 25px;
+}
+.main-content .course .box3 button{
+    padding: 10px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+.main-content .course .box3 button:hover{
+    scale: 1.2;
+    background-color: transparent;
+    color: red;
+}
+.main-content .course .box4{
+    height: 280px;
+    width: 280px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: 1s ease-in-out;
+}
+.main-content .course .box4:hover{
+    scale: 1.08;
+    background-color: transparent;
+    color: white;
+}
+.main-content .course .box4 i{
+    font-size: 35px;
+}
+.main-content .course .box4 h1{
+    font-size: 23px;
+}
+.main-content .course .box4 button{
+    padding: 10px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+.main-content .course .box4 button:hover{
+    scale: 1.2;
+    background-color: transparent;
+    color: red;
+}
+.social-media{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main-content .social-media .instagram{
+    height: 280px;
+    width: 280px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: 1s ease-in-out;
+}
+.main-content .social-media .instagram:hover{
+    scale: 1.08;
+    background-color: transparent;
+    color: white;
+}
+.main-content .social-media .instagram i{
+    font-size: 35px;
+}
+.main-content .social-media .instagram h1{
+    font-size: 30px;
+}
+.main-content .social-media .instagram button{
+    padding: 10px 25px;
+    font-size: 20px;
+    background-color: rgb(235, 202, 15);
+    color: white;
+    border: 1px solid rgb(235, 220, 15);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+.main-content .social-media .instagram button:hover{
+    scale: 1.2;
+    background-color: transparent;
+    color: rgb(235, 220, 15);
+}
+.main-content .social-media .telegram{
+    height: 280px;
+    width: 280px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: 1s ease-in-out;
+}
+.main-content .social-media .telegram:hover{
+    scale: 1.08;
+    background-color: transparent;
+    color: white;
+}
+.main-content .social-media .telegram i{
+    font-size: 35px;
+}
+.main-content .social-media .telegram h1{
+    font-size: 30px;
+}
+.main-content .social-media .telegram button{
+    padding: 10px 25px;
+    font-size: 20px;
+    background-color: rgb(235, 202, 15);
+    color: white;
+    border: 1px solid rgb(235, 202, 15);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+.main-content .social-media .telegram button:hover{
+    scale: 1.2;
+    background-color: transparent;
+    color: rgb(235, 202, 15);
+}
+.main-content .social-media .youtube{
+    height: 280px;
+    width: 280px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: 1s ease-in-out;
+}
+.main-content .social-media .youtube:hover{
+    scale: 1.08;
+    background-color: transparent;
+    color: white;
+}
+.main-content .social-media .youtube i{
+    font-size: 35px;
+}
+.main-content .social-media .youtube h1{
+    font-size: 30px;
+}
+.main-content .social-media .youtube button{
+    padding: 10px 25px;
+    font-size: 20px;
+    background-color: rgb(235, 202, 15);
+    color: white;
+    border: 1px solid rgb(235, 202, 15);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+.main-content .social-media .youtube button:hover{
+    scale: 1.2;
+    background-color: transparent;
+    color: rgb(235, 202, 15);
+}
+.main-content .social-media .linkdin{
+    height: 280px;
+    width: 280px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: 1s ease-in-out;
+}
+.main-content .social-media .linkdin:hover{
+    scale: 1.08;
+    background-color: transparent;
+    color: white;
+}
+.main-content .social-media .linkdin i{
+    font-size: 35px;
+}
+.main-content .social-media .linkdin h1{
+    font-size: 30px;
+}
+.main-content .social-media .linkdin button{
+    padding: 10px 25px;
+    font-size: 20px;
+    background-color: rgb(235, 202, 15);
+    color: white;
+    border: 1px solid rgb(235, 202, 15);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+.main-content .social-media .linkdin button:hover{
+    scale: 1.2;
+    background-color: transparent;
+    color: rgb(235, 202, 15);
+}
